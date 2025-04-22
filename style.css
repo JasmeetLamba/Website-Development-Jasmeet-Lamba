@@ -1,0 +1,86 @@
+:root {
+	--primary-color: #2c3e50; /* Dark Navy */
+	--accent-color: #3498db; /* Sky Blue */
+	--background-color: #ecf0f1; /* Light Gray */
+	--text-color: #34495e; /* Darker Gray */
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: var(--background-color);
+	color: var(--text-color);
+	line-height: 1.6;
+
+	/* Optional: Adding a subtle paper texture to the background */
+	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/pw_maze_light.png"); /* Replace this with your own texture if needed */
+	background-size: cover;
+	background-attachment: fixed; /* Keeps the texture fixed while scrolling */
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 40px 20px;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increased shadow for a stronger floating effect */
+	border: 1px solid #ddd; /* Subtle light border for the paper effect */
+}
+
+h1,
+h2 {
+	color: var(--accent-color);
+	margin-bottom: 10px;
+}
+
+header {
+	background-color: var(--primary-color);
+	color: white;
+	padding: 20px;
+	text-align: center;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+
+header p {
+	margin: 5px 0;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+ul li {
+	margin-bottom: 8px;
+}
+
+.project-title {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.highlight {
+	color: var(--accent-color);
+}
+
+.section-title {
+	font-size: 1.4rem;
+	border-bottom: 2px solid var(--accent-color);
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+a {
+	color: var(--accent-color);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
